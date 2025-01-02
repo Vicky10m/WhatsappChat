@@ -1,0 +1,39 @@
+html,
+body {
+    @include fontCalcSize(16, 10);
+    font-family: $primaryFont;
+    color: $black;
+    font-weight: 400;
+}
+
+p {
+    @include fontCalcSize(15, 12);
+    color: $black;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+}
+
+h3 {
+    @include fontCalcSize(44, 24);
+    color: $black;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+}
+
+h4 {
+    @include fontCalcSize(36, 20);
+    color: $black;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+}
+
+h5 {
+    @include fontCalcSize(16, 14);
+    color: $black;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+}

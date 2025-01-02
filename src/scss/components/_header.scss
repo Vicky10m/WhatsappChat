@@ -1,0 +1,37 @@
+header {
+    padding: 25px 0;
+    position: fixed;
+    background: black;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    transition: all .35s ease;
+    h1{
+        color: white;
+    }
+
+    @media(max-width: 991px) {
+        padding: 10px 0;
+    }
+
+    &.sticky-header {
+        padding: 10px 0;
+
+        .logo {
+            flex: 0 0 130px;
+            max-width: 130px;
+        }
+    }
+}
+
+.logo {
+    flex: 0 0 209px;
+    max-width: 209px;
+    transition: all .35s ease;
+
+    @media(max-width: 991px) {
+        flex: 0 0 130px;
+        max-width: 130px;
+    }
+}
