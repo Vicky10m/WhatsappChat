@@ -1,11 +1,12 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/style.scss';
+
 
 function App() {
   return (
         <>
           <header>
-            <h1 className="mt-5">waqas</h1>
+            <h1 className="bg-danger">waqas</h1>
           </header>
         </>
   );
