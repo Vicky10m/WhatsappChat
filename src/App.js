@@ -5,7 +5,7 @@ function App() {
   return (
         <>
           <header>
-            <h1>waqas</h1>
+            <h1 className="mt-5">waqas</h1>
           </header>
         </>
   );
